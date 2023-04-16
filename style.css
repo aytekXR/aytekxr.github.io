@@ -2,7 +2,7 @@
     display: block;
     margin: 0 auto;
     border-radius: 50%;
-    max-width: 500px;
+    max-width: 600px;
     height: auto;
   }
   
@@ -21,7 +21,7 @@
   }
   
   li {
-    margin: 20px 0;
+    margin: 40px 0;
   }
   
   a {
