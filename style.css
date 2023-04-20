@@ -33,4 +33,35 @@
   a:hover {
     color: #0066CC;
   }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons li {
+    margin: 0 10px;
+  }
+  
+  .social-icons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icons li a:hover {
+    background-color: #4267B2;
+  }
+  
+  .social-icons li a i {
+    font-size: 20px;
+  }
+  
 </style>
