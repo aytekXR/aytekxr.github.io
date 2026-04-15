@@ -1,31 +1,580 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Aytek Erdogan</title>
-    <link rel="icon" href="./assets/icon.png">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-3p6lN5G5Z5x5v5EZ5LzBFGJ+QWg1eyv/lCOHlUhJlCEpuMFprZmcx+UMvwlDZZ9dwMdx+U8y6/z3+qGQtJ6Uw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
-  <body>
-    <img src="./assets/profilephoto.png" alt="Aytek Erdogan's Photo">
-    <h1>Software Engineer In Days, Researcher At Nights!</h1>
-    <p></p>
-    <ul class="social-icons">
-      <li><a href="https://github.com/aytekXR"><i class="fab fa-github"></i> GitHub</a></li>
-      <li><a href="https://leetcode.com/ayteknerdogan/"><i class="fas fa-code"></i> LeetCode</a></li>
-      <li><a href="https://www.youtube.com/@aytekinerdogan1987/videos"><i class="fab fa-youtube"></i> YouTube</a></li>
-      <li><a href="https://www.linkedin.com/in/aytekinerdogan/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-      <li><a href="https://twitter.com/aytekerdo"><i class="fab fa-twitter"></i> Twitter</a></li>
-      <li><a href="https://www.instagram.com/aytekerdo"><i class="fab fa-instagram"></i> Instagram</a></li>
-      <li><a href="mailto:aytekin.erdogan@metu.edu.tr"><i class="far fa-envelope"></i> Offical Contact Mail</a></li>
-      <li><a href="https://wa.me/+905497258446"><i class="fab fa-whatsapp"></i> WhatsApp Business</a></li>
-    </ul>
-    <p></p>
-    <ul>
-      <li><a href="./assets/Important_reminder.pdf" target="_blank"> DAILY REMINDER</a></li>
-      <li><a href="./assets/AytekinErdoganCV.pdf" target="_blank">Offical Resume</a></li>
-      <li><a href="./ggifting" target="_blank"><i class="fas fa-gift"></i> GGifting Project</a></li>
-    </ul>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aytekin Erdogan — Technical Strategy Engineer. Bridging deep technology and business impact through AI, Computer Vision, and strategic leadership.">
+  <title>Aytekin Erdogan</title>
+  <link rel="icon" href="./assets/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- =====================================================================
+       HEADER / NAV
+       ===================================================================== -->
+  <header id="site-header">
+    <div class="container">
+      <nav class="nav-inner">
+        <a href="#hero" class="nav-logo">Aytekin Erdogan</a>
+
+        <input type="checkbox" id="nav-toggle" aria-hidden="true">
+        <label for="nav-toggle" class="nav-hamburger" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul class="nav-links" role="list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================================================================
+         HERO
+         =================================================================== -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero-inner">
+
+          <div class="hero-content">
+            <span class="label">Technical Strategy Engineer</span>
+            <h1>Aytekin<br>Erdogan</h1>
+            <h2>Bridging Deep Technology<br>and Business Impact</h2>
+            <p class="hero-descriptor">Computer Vision &middot; AI Systems &middot; Product Strategy &middot; Technical Leadership</p>
+
+            <div class="hero-ctas">
+              <a href="#experience" class="btn btn-primary">
+                <i class="fas fa-chevron-down"></i> View Experience
+              </a>
+              <a href="./assets/AytekinErdoganCV.pdf" target="_blank" rel="noopener" class="btn btn-outline">
+                <i class="fas fa-file-pdf"></i> Download CV
+              </a>
+            </div>
+
+            <div class="hero-socials">
+              <a href="https://github.com/aytekXR" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/aytekinerdogan/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="https://twitter.com/aytekerdo" target="_blank" rel="noopener" title="Twitter / X"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.youtube.com/@aytekinerdogan1987/videos" target="_blank" rel="noopener" title="YouTube"><i class="fab fa-youtube"></i></a>
+              <a href="https://www.instagram.com/aytekerdo" target="_blank" rel="noopener" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="hero-photo-wrap">
+            <div class="hero-photo-glow"></div>
+            <img src="./assets/profilephoto.png" alt="Aytekin Erdogan" class="hero-photo">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         ABOUT
+         =================================================================== -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header" style="text-align:center;">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle" style="margin:0 auto;">From pixels to strategy — a journey built on deep technical foundations.</p>
+        </div>
+
+        <div class="about-text">
+          <p>
+            I'm a Computer Vision and Deep Learning engineer who has evolved into a technical strategy role,
+            working at the intersection of cutting-edge AI research and real-world product impact. With over
+            six years of hands-on experience across defence, healthcare, automotive, and telecom, I've moved
+            from building systems at the hardware level to shaping the technology roadmaps that define them.
+          </p>
+          <p>
+            Today, as Technical Strategy Engineer at <strong style="color:var(--text-primary);">beyond technologies</strong>,
+            I drive R&amp;D initiatives, represent the company at C-level engagements and international trade
+            events, and bridge the gap between engineering teams and executive stakeholders. My work sits at
+            the convergence of deep technical expertise and strategic business thinking.
+          </p>
+          <p>
+            I'm also a PhD candidate at Middle East Technical University, pursuing research in Computer Vision
+            and Deep Learning, building on my MSc work on transformer-based multi-sensor image fusion
+            (FuseFormer, arXiv 2024).
+          </p>
+        </div>
+
+        <div class="stat-cards">
+          <div class="stat-card">
+            <div class="stat-number">6+</div>
+            <div class="stat-label">Years Engineering</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">4</div>
+            <div class="stat-label">Publications</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">PhD</div>
+            <div class="stat-label">Candidate @ METU</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">5</div>
+            <div class="stat-label">Companies</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         EXPERIENCE
+         =================================================================== -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Experience</h2>
+          <p class="section-subtitle">A career arc from embedded systems to executive-level technology strategy.</p>
+        </div>
+
+        <div class="timeline">
+
+          <!-- beyond technologies — Technical Strategy Engineer -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-role">Technical Strategy Engineer</span>
+                <span class="timeline-period">Nov 2025 &ndash; Present</span>
+              </div>
+              <div class="timeline-company">beyond technologies</div>
+              <ul class="timeline-bullets">
+                <li>Shaping the company's product and technology roadmap through in-depth market intelligence and competitive analysis in the mini-UAV domain</li>
+                <li>Representing the company at domestic and international engagements, including high-level meetings and industry events, directly interfacing with C-level stakeholders</li>
+                <li>Providing technical expertise during the sales process, including client meetings and negotiations</li>
+                <li>Hosting VIP guests, delegations, and project-related visitors on behalf of the company</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- beyond technologies — Tech Lead AI & Autonomy -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-role">Tech Lead, AI &amp; Autonomy (TARNAV)</span>
+                <span class="timeline-period">Apr 2025 &ndash; Nov 2025</span>
+              </div>
+              <div class="timeline-company">beyond technologies</div>
+              <ul class="timeline-bullets">
+                <li>Led a multi-national Europe-based autonomy kit development project as tech lead within the AI team</li>
+                <li>Designed system architecture and guided implementation for the autonomous kit</li>
+                <li>Managed cross-functional development with a focus on scalable, high-quality systems</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Exin Health — Tech Lead AI Product -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-role">Tech Lead, AI Product</span>
+                <span class="timeline-period">Apr 2024 &ndash; Apr 2025</span>
+              </div>
+              <div class="timeline-company">Exin Health</div>
+              <ul class="timeline-bullets">
+                <li>Led development of the ORGenie product to improve operating room intelligence</li>
+                <li>Developed and deployed AI models for surgical data analysis — instance segmentation, stereo vision, and ASR</li>
+                <li>Implemented data privacy solutions compliant with GDPR and HIPAA</li>
+                <li>Created a video event annotation tool for medical procedures</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Ericsson — ML Research -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-role">Software Engineer &mdash; ML Research</span>
+                <span class="timeline-period">Jun 2022 &ndash; Apr 2025</span>
+              </div>
+              <div class="timeline-company">Ericsson</div>
+              <a href="./assets/Erdogan_Aytekin_Key_Contributor.pdf" target="_blank" rel="noopener" class="badge badge-award">
+                <i class="fas fa-award"></i> Key Contributor Award 2024
+              </a>
+              <ul class="timeline-bullets">
+                <li>Recognized as Key Contributor in 2024 and awarded stock options</li>
+                <li>Developed enterprise-level software for 5G/6G Transport Networks with AI/ML integration</li>
+                <li>Senior C++ developer for 5G/6G network technologies</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Ford Otosan — Autonomous Driving -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-role">Software Engineer, Autonomous Driving</span>
+                <span class="timeline-period">Sep 2021 &ndash; May 2022</span>
+              </div>
+              <div class="timeline-company">Ford Otosan</div>
+              <ul class="timeline-bullets">
+                <li>Designed and implemented a multi-sensor calibration and alignment framework</li>
+                <li>Conducted research on monocular 2D/3D object detection for autonomous vehicles</li>
+                <li>Developed perception systems for obstacle detection</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Meteksan Defence — Computer Vision -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-role">Software Engineer, Computer Vision</span>
+                <span class="timeline-period">Aug 2018 &ndash; Apr 2021</span>
+              </div>
+              <div class="timeline-company">Meteksan Defence</div>
+              <ul class="timeline-bullets">
+                <li>Created Board Support Packages for Linux distributions on embedded platforms</li>
+                <li>Developed C++ applications for Xilinx UltraScale Architecture</li>
+                <li>Implemented face recognition and license plate recognition systems</li>
+                <li>Deployed computer vision solutions on NVIDIA Jetson platforms</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         SKILLS
+         =================================================================== -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-subtitle">Technical depth paired with strategic breadth.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-card-icon"><i class="fas fa-code"></i></div>
+              <h3>Languages &amp; Frameworks</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill">C/C++</span>
+              <span class="pill">Python</span>
+              <span class="pill">MATLAB</span>
+              <span class="pill">C++17</span>
+              <span class="pill">PyTorch</span>
+              <span class="pill">OpenCV</span>
+              <span class="pill">CUDA C/C++</span>
+              <span class="pill">OpenMP</span>
+              <span class="pill">Boost</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-card-icon"><i class="fas fa-brain"></i></div>
+              <h3>AI &amp; Machine Learning</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill">Computer Vision</span>
+              <span class="pill">Deep Learning</span>
+              <span class="pill">Object Detection</span>
+              <span class="pill">Instance Segmentation</span>
+              <span class="pill">Multi-modal Fusion</span>
+              <span class="pill">Stereo Vision</span>
+              <span class="pill">Autonomous Systems</span>
+              <span class="pill">ASR</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-card-icon"><i class="fas fa-chess-king"></i></div>
+              <h3>Leadership &amp; Strategy</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill">Technology Roadmapping</span>
+              <span class="pill">Team Leadership</span>
+              <span class="pill">C-level Communication</span>
+              <span class="pill">Product Strategy</span>
+              <span class="pill">Sales Engineering</span>
+              <span class="pill">International Business</span>
+              <span class="pill">R&amp;D Management</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-card-icon"><i class="fas fa-flask"></i></div>
+              <h3>Research</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill">Academic Publishing</span>
+              <span class="pill">Transformer Architectures</span>
+              <span class="pill">Image Fusion</span>
+              <span class="pill">Experimental Design</span>
+              <span class="pill">arXiv</span>
+              <span class="pill">METU Research Labs</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-card-icon"><i class="fas fa-tools"></i></div>
+              <h3>Tools &amp; Platforms</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill">Git / GitHub</span>
+              <span class="pill">Linux</span>
+              <span class="pill">NVIDIA GPU Ecosystem</span>
+              <span class="pill">Xilinx UltraScale</span>
+              <span class="pill">NVIDIA Jetson</span>
+              <span class="pill">Embedded Systems</span>
+              <span class="pill">FPGA</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-card-icon"><i class="fas fa-globe"></i></div>
+              <h3>Languages</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill">English — IELTS 7.5 / TOEFL 102</span>
+              <span class="pill">Turkish — Native</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         PUBLICATIONS
+         =================================================================== -->
+    <section id="publications">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Publications</h2>
+          <p class="section-subtitle">Research contributions in computer vision and deep learning.</p>
+        </div>
+
+        <div class="pub-list">
+
+          <div class="pub-card">
+            <div class="pub-meta">
+              <span class="pub-venue">arXiv Pre-print</span>
+              <span class="pub-year">2024</span>
+            </div>
+            <h3>FuseFormer: A Transformer for Visual and Thermal Image Fusion</h3>
+            <p class="pub-authors">Aytekin Erdogan, Erdem Akagunduz</p>
+            <p class="pub-abstract">
+              A transformer-based architecture for fusing visible and infrared (thermal) image modalities,
+              leveraging self-attention mechanisms to preserve complementary features from both spectral bands
+              for robust scene understanding in challenging conditions.
+            </p>
+            <div class="pub-links">
+              <a href="https://arxiv.org/search/?searchtype=author&query=Erdogan%2C+Aytekin" target="_blank" rel="noopener" class="pub-link">
+                <i class="fas fa-external-link-alt"></i> arXiv
+              </a>
+            </div>
+          </div>
+
+          <div class="pub-card">
+            <div class="pub-meta">
+              <span class="pub-venue">MSc Thesis</span>
+              <span class="pub-year">2023</span>
+            </div>
+            <h3>A Transformer-Based Approach for Fusing Infrared and Visible Band Images</h3>
+            <p class="pub-authors">Aytekin Erdogan &mdash; Middle East Technical University</p>
+            <p class="pub-abstract">
+              Master's thesis investigating transformer architectures for multi-spectral image fusion,
+              combining visible and infrared imagery to improve perception in low-light and adverse
+              environmental conditions.
+            </p>
+            <div class="pub-links">
+              <a href="https://open.metu.edu.tr/handle/11511/104876" target="_blank" rel="noopener" class="pub-link">
+                <i class="fas fa-external-link-alt"></i> METU Open Access
+              </a>
+            </div>
+          </div>
+
+          <div class="pub-card">
+            <div class="pub-meta">
+              <span class="pub-venue">BSc Thesis</span>
+              <span class="pub-year">2019</span>
+            </div>
+            <h3>3D-Printed Reflectarray Antenna Design and Fabrication</h3>
+            <p class="pub-authors">Aytekin Erdogan &mdash; Hacettepe University</p>
+            <p class="pub-abstract">
+              Bachelor's degree thesis on the design, simulation, and fabrication of a reflectarray
+              antenna using 3D printing technology, combining electromagnetic design with advanced
+              manufacturing methods.
+            </p>
+          </div>
+
+          <div class="pub-card">
+            <div class="pub-meta">
+              <span class="pub-venue">Conference Paper</span>
+              <span class="pub-year">2016</span>
+            </div>
+            <h3>Total Quality Management in Training of Airmen</h3>
+            <p class="pub-authors">Aytekin Erdogan &mdash; IJAS Conference, Nevada, USA</p>
+            <p class="pub-abstract">
+              A conference paper examining the application of Total Quality Management principles
+              to the structured training programs for military aviation personnel.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         CONTACT
+         =================================================================== -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-subtitle">
+            Whether you're exploring technical collaboration, strategic partnership, or research
+            opportunities — I'm always open to meaningful conversations.
+          </p>
+        </div>
+
+        <div class="contact-cards">
+          <a href="mailto:aytekin.erdogan@metu.edu.tr" class="contact-card">
+            <div class="contact-icon"><i class="far fa-envelope"></i></div>
+            <div class="contact-info">
+              <strong>Email</strong>
+              <span>aytekin.erdogan@metu.edu.tr</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/aytekinerdogan/" target="_blank" rel="noopener" class="contact-card">
+            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+            <div class="contact-info">
+              <strong>LinkedIn</strong>
+              <span>aytekinerdogan</span>
+            </div>
+          </a>
+          <a href="https://github.com/aytekXR" target="_blank" rel="noopener" class="contact-card">
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
+            <div class="contact-info">
+              <strong>GitHub</strong>
+              <span>aytekXR</span>
+            </div>
+          </a>
+          <a href="https://wa.me/+905375617103" target="_blank" rel="noopener" class="contact-card">
+            <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+            <div class="contact-info">
+              <strong>WhatsApp</strong>
+              <span>+90 537 561 7103</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="social-row">
+          <a href="https://twitter.com/aytekerdo" target="_blank" rel="noopener" title="Twitter / X"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/aytekerdo" target="_blank" rel="noopener" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@aytekinerdogan1987/videos" target="_blank" rel="noopener" title="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://leetcode.com/ayteknerdogan/" target="_blank" rel="noopener" title="LeetCode"><i class="fas fa-code"></i></a>
+        </div>
+
+        <div>
+          <a href="./assets/AytekinErdoganCV.pdf" target="_blank" rel="noopener" class="btn btn-primary">
+            <i class="fas fa-file-pdf"></i> Download CV
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =====================================================================
+       FOOTER
+       ===================================================================== -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Aytekin Erdogan</p>
+    </div>
+  </footer>
+
+  <!-- =====================================================================
+       JAVASCRIPT
+       ===================================================================== -->
+  <script>
+    // 1. Sticky header scrolled state
+    const header = document.getElementById('site-header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 10);
+    }, { passive: true });
+
+    // 2. Smooth scroll with sticky header offset correction
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', e => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (!target) return;
+        e.preventDefault();
+        const offset = header.offsetHeight + 8;
+        window.scrollTo({ top: target.offsetTop - offset, behavior: 'smooth' });
+        // Close mobile menu if open
+        document.getElementById('nav-toggle').checked = false;
+      });
+    });
+
+    // 3. Scroll-reveal + active nav via Intersection Observer
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.12 });
+
+    const navObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          navLinks.forEach(link => {
+            link.classList.toggle('active', link.getAttribute('href') === '#' + id);
+          });
+        }
+      });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+
+    // Observe animated elements
+    document.querySelectorAll(
+      '.timeline-item, .skill-card, .pub-card, .stat-card'
+    ).forEach((el, i) => {
+      el.style.transitionDelay = (i % 4) * 0.08 + 's';
+      revealObserver.observe(el);
+    });
+
+    // Observe sections for nav highlighting
+    document.querySelectorAll('section[id]').forEach(section => {
+      navObserver.observe(section);
+    });
+  </script>
+
+</body>
 </html>
